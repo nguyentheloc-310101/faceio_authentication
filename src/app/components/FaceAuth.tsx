@@ -29,6 +29,7 @@ const FaceAuth: React.FC<FaceAuthProps> = ({ onSuccessfulAuth }) => {
           description: "You're now enrolled in the facial recognition system!",
         });
         console.log('User Enrolled!', userInfo);
+        window.location.reload(); // Refresh the page
       } catch (errCode) {
         toast({
           title: 'Oops!',
