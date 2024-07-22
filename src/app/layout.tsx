@@ -19,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Script src="https://cdn.faceio.net/fio.js"></Script>
         <header className="bg-primary text-white p-4">
           <h1 className="text-2xl font-bold">Faceio Solutions</h1>
         </header>
