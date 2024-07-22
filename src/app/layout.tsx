@@ -1,3 +1,4 @@
+import { Toaster } from '@/components/ui/toaster';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
@@ -20,11 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header className="bg-primary text-white p-4">
-          <h1 className="text-2xl font-bold">Faceio Solutions</h1>
+          <h1 className="text-2xl font-bold">Faceio - Dision Solutions</h1>
         </header>
+        <Toaster />
         <main className="container mx-auto p-4">{children}</main>
         <footer className="bg-gray-100 text-center p-4 mt-8">
-          <p>&copy; 2024 Faceio . All rights reserved.</p>
+          <p>&copy; 2024 Faceio -Dision . All rights reserved.</p>
         </footer>
       </body>
     </html>

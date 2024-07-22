@@ -85,7 +85,7 @@ const EmployeeDashboard: React.FC = () => {
 
           <Card>
             <CardHeader>
-              <CardTitle>Attendance Records</CardTitle>
+              <CardTitle>Attendance Records - sample</CardTitle>
             </CardHeader>
             <CardContent>
               <Table>
